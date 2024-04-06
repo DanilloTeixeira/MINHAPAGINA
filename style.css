@@ -25,24 +25,6 @@ nav li {
   margin: 0 20px;
 }
 
-.mpg {
-  color: #ff0000;
-
-}
-
-.pg {
-  display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 90%;
-}
-
-.container .MinhaPg {
-  color: #ff0000;
-  display: inline-block;
-  margin: 0 20px;
-}
-
 nav a {
   color: #ffffff;
   text-decoration: none;
@@ -52,6 +34,26 @@ nav a {
 
 nav a:hover {
   color: #007bff;
+}
+
+.myname {
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 48px;
+  font-size: 46px;
+  color: #0000a2;
+  margin-bottom: -20px;
+  font-family: 'Arial Narrow Bold', sans-serif
+}
+
+.myfunc {
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 48px;
+  font-size: 46px;
+  color: #ffffff;
+  margin-bottom: -2px;
+  font-family: 'Arial Narrow Bold', sans-serif
 }
 
 /* Seções */
@@ -90,11 +92,11 @@ img {
 /* Sobre Mim */
 #sobre-mim {
   text-align: center;
+  margin-top: 50px;
 }
 
 #sobre-mim p {
   line-height: 1.6;
-  margin-bottom: 20px;
 }
 
 #sobre-mim a {
@@ -104,6 +106,7 @@ img {
   color: #fff;
   text-decoration: none;
   transition: background-color 0.3s ease;
+
 }
 
 #sobre-mim .btn {
@@ -116,7 +119,6 @@ img {
   /*text-shadow: 1px 1px 1px black;*/
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
-
 }
 
 #sobre-mim a:hover {
@@ -158,4 +160,51 @@ footer p {
   #sobre-mim p {
     text-align: left;
   }
+}
+
+.image-text-section {
+  display: flex;
+  /* Alinha os elementos em uma linha */
+  flex-wrap: wrap;
+  /* Permite que os elementos se quebrem em várias linhas */
+  justify-content: space-between;
+  /* Distribui o espaço uniformemente entre os elementos */
+  margin: 0 auto;
+  /* Centraliza a seção na página */
+}
+
+.image-container {
+  width: 15%;
+  /* Define a largura de cada contêiner de imagem */
+  margin: 10px;
+  /* Adiciona espaço entre os contêineres */
+  text-align: center;
+  /* Alinha o texto centralizado */
+}
+
+.image-container img {
+  width: 20%;
+  /* Ajusta a largura da imagem ao contêiner */
+  margin-bottom: 1px;
+  /* Adiciona espaço abaixo da imagem */
+}
+
+.image-container a {
+  display: inline-block;
+  /* Faz o link exibir como um bloco */
+  padding: 5px 10px;
+  /* Adiciona preenchimento ao link */
+  background-color: #007bff;
+  /* Define a cor do fundo do link */
+  color: white;
+  /* Define a cor do texto do link */
+  text-decoration: none;
+  /* Remove a decoração sublinhada padrão */
+  border-radius: 15px;
+  /* Adiciona cantos arredondados ao link */
+}
+
+#projects {
+  color: #0026c0;
+  font-size: 35px;
 }
