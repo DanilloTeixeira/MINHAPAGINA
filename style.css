@@ -1,63 +1,72 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
-  color: rgb(255, 255, 255); 
-}
-.container{
-  width: 100%;
-  height: 100vh;   
-  /*background-image: url(./img/bota.png);*/
-  background-position: center;   
-  background-color: rgb(0, 0, 0); 
-  
+  color: rgb(255, 255, 255);
 }
 
-nav{
+.container {
+  width: 100%;
+  height: 100vh;
+  /*background-image: url(./img/bota.png);*/
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+
+}
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: 20px;
   padding-left: 30px;
-  padding-right: 30px;  
+  padding-right: 30px;
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 .img-dir {
   float: right;
   margin-top: 110px;
-  margin-right:400px ;
+  margin-right: 400px;
   width: 400px;
   height: auto;
 }
+
 .MinhaPg {
   color: rgb(0, 34, 255);
   font-size: 35px;
 }
+
 .MinhaPg span {
-  color: rgb(0, 34, 255); 
+  color: rgb(0, 34, 255);
 }
-li{
+
+li {
   color: white;
   list-style: none;
   transition: .3s ease all;
   display: inline-block;
   font-size: 27px;
   margin: 30px;
-  cursor: pointer;  
+  cursor: pointer;
 }
-li a:hover{   
-  color: rgb(0, 34, 255); 
-  transition: 0.5s;    
+
+li a:hover {
+  color: rgb(0, 34, 255);
+  transition: 0.5s;
 }
+
 .myname {
   position: absolute;
   top: 50%;
   left: 16%;
   font-size: 49px;
 }
+
 .myfunc {
   position: absolute;
   font-size: 45px;
@@ -65,87 +74,108 @@ li a:hover{
   left: 16%;
   color: blue;
 }
+
 h1 {
   color: white;
   font-size: 75px;
 }
-h2.sobre{
+
+h2.sobre {
   margin-bottom: 20px;
   font-size: 55px;
   text-align: justify;
   color: rgb(0, 46, 198);
 }
+
 P {
   color: white;
   font-size: 25px;
 }
+
 .sobre {
   color: rgb(0, 46, 198);
 }
+
 section {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   padding: 10px 0;
-  background-color: rgb(9, 8, 8); 
+  background-color: rgb(0, 0, 0);
 }
-section img {
-  height: 600px;    
+
+. section img {
+  height: 600px;
   margin-right: 60px;
 }
-section div h2{
+
+section div h2 {
   color: white;
-  font-size: 100px;  
+  font-size: 100px;
 }
+
 button {
- color: rgb(255, 255, 255); 
- background-color: blue;
- height: 50px;
- width: 170px;
- font-size: 20px;
- border: none;
- border-radius: 26px;
- margin-top: 50px;
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  height: 50px;
+  width: 170px;
+  font-size: 20px;
+  border: none;
+  border-radius: 26px;
+  margin-top: 50px;
 }
-section div button:hover{ 
+
+section div button:hover {
   background-color: rgb(0, 0, 0);
   border: 4px solid blue;
   transition: 0.5s;
   color: white;
-  cursor: pointer;     
+  cursor: pointer;
 }
-.proj{
+
+.proj {
   margin-bottom: 20px;
   font-size: 55px;
   text-align: justify;
   color: rgb(0, 46, 198);
 }
-.project-image{  
-  height: 250px;    
-  margin-right: 60px;  
-}
-.img-01 {
-  margin-top: 40px;
-  height: 150px;    
+
+.project-image {
+  height: 250px;
   margin-right: 60px;
 }
-  .imgg{
-    color: rgb(0, 0, 251);
-   text-align:justify;
-   font-size: 20px;
-  }
-  .img-02 {
-    margin-top: 40px;
-    height: 170px;    
-    margin-right: 60px;
-  }
-footer {
-  background-color: #ffffff; /* Cor de fundo do rodapé */
-  color: #000000; /* Cor do texto */
-  text-align: center; /* Centraliza o texto */
-  padding: 20px 0; /* Espaçamento interno */
-  font-size: 1em; /* Tamanho da fonte */
+
+.img-01 {
+  margin-top: 40px;
+  height: 150px;
+  margin-right: 60px;
 }
-.copy{
+
+.imgg {
+  color: rgb(0, 0, 251);
+  text-align: justify;
+  font-size: 20px;
+}
+
+.img-02 {
+  margin-top: 40px;
+  height: 170px;
+  margin-right: 60px;
+}
+
+footer {
+  background-color: #ffffff;
+  /* Cor de fundo do rodapé */
+  color: #000000;
+  /* Cor do texto */
+  text-align: center;
+  /* Centraliza o texto */
+  padding: 20px 0;
+  /* Espaçamento interno */
+  font-size: 1em;
+  /* Tamanho da fonte */
+}
+
+.copy {
   color: #000000;
 }
