@@ -106,10 +106,26 @@ img {
   transition: background-color 0.3s ease;
 }
 
+#sobre-mim .btn {
+  cursor: pointer;
+  color: blue;
+  border-radius: 35px;
+  background-color: #0000a2;
+  color: #ffffff;
+  box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.7);
+  /*text-shadow: 1px 1px 1px black;*/
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+
+}
+
 #sobre-mim a:hover {
   font-size: 25px;
   background-color: #ffffff;
+  border-radius: 35px, solid rgb(0, 0, 0);
   color: #000000;
+  box-shadow: inset 8px 8px 15px rgba(0, 0, 0, 0.9),
+    -8px -8px 15px rgba(255, 255, 255, 0.9);
 }
 
 /* Footer */
