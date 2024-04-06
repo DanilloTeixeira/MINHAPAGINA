@@ -1,4 +1,3 @@
-JavaScript
 // Menu Fixo
 window.addEventListener('scroll', function () {
   const nav = document.querySelector('nav');
