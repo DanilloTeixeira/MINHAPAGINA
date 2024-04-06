@@ -46,14 +46,11 @@ li{
   display: inline-block;
   font-size: 27px;
   margin: 30px;
-  cursor: pointer;
-  
-  
+  cursor: pointer;  
 }
 li a:hover{   
   color: rgb(0, 34, 255); 
-  transition: 0.5s;  
-  
+  transition: 0.5s;    
 }
 .myname {
   position: absolute;
@@ -90,8 +87,7 @@ section {
   justify-content: center;
   align-items: center;  
   padding: 10px 0;
-  background-color: rgb(9, 8, 8);
- 
+  background-color: rgb(9, 8, 8); 
 }
 section img {
   height: 600px;    
@@ -99,8 +95,7 @@ section img {
 }
 section div h2{
   color: white;
-  font-size: 100px;
-  
+  font-size: 100px;  
 }
 button {
  color: rgb(255, 255, 255); 
