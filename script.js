@@ -22,9 +22,15 @@ imagens.forEach((imagem, index) => {
 });
 
 function mostrarImagem(index) {
+  imagens.forEach((imagem) => {
+    imagem.style.opacity = '0';
+  });
+
   imagemAtual = index;
   galeriaAtual.src = imagens[imagemAtual].src;
-  indicadorAtual.textContent = (imagemAtual + 1) + ' / ' + imagens.length;
-}
+  indicadorAtual.innerHTML = `0${imagemAtual + 1}/0${imagens.length}`;
 
-// Adicione mais funcionalidades JavaScript conforme suas necessidades
+  setTimeout(() => {
+    imagens[imagemAtual].style.opacity = '1';
+  }, 500);
+}
